@@ -23,7 +23,7 @@ packages = c("kerasformula",
              "ggplot2", 
              "dplyr",
              "magrittr",
-             "zeallot"
+             "zeallot",
              "tfruns")
 
 for (package in packages) {
