@@ -17,3 +17,6 @@ use_python('/opt/conda/bin/python')
 py_discover_config('tensorflow')
 py_discover_config('keras')
 is_keras_available()
+
+install.packages('kerasformula')
+install.packages('ggplot2')
