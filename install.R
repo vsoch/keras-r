@@ -10,7 +10,7 @@ require(reticulate)
 require(keras)
 
 is_keras_available()
-system('which_python')
+system('which python')
 Sys.setenv(TENSORFLOW_PYTHON='/opt/conda/bin/python')
 use_python('/opt/conda/bin/python')
 
