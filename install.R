@@ -11,7 +11,7 @@ require(keras)
 
 is_keras_available()
 system('which_python')
-sys.setenv(TENSORFLOW_PYTHON='/opt/conda/bin/python')
+Sys.setenv(TENSORFLOW_PYTHON='/opt/conda/bin/python')
 use_python('/opt/conda/bin/python')
 
 py_discover_config('tensorflow')
