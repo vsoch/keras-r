@@ -10,7 +10,7 @@ ENV PATH /opt/conda/bin:$PATH
 # Install Anaconda
 RUN apt-get -qq update && apt-get install -y wget
 RUN wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh && \
-    /bin/bash https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -b -p /opt/conda
+    /bin/bash Miniconda2-latest-Linux-x86_64.sh -b -p /opt/conda
 
 RUN apt-get install -t unstable -y libcurl4-openssl-dev libssl-dev
 
